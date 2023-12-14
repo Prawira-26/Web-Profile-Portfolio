@@ -1,0 +1,150 @@
+/* hotitem.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: #fffefe;
+    text-align: center;
+    position: relative;
+}
+
+header img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+nav {
+    background-color: #fffefe;
+    color: #1d1d1d;
+    text-align: center;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: -3px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 110px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #424242;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ddcbab;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.menu-item p {
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #4d4c4c;
+    border-bottom: 2px solid #111111;
+}
+
+
+
+.sale-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.sale-container img {
+    width: 19%; /* Mengubah lebar gambar sehingga empat gambar muat dalam satu baris */
+    height: auto;
+    border: 4px solid #ffffff;
+    margin-bottom: 20px;
+}
+
+.image-gallery img {
+    width: 15%;
+    height: auto;
+    border: 4px solid #ffffff;
+    margin-bottom: 10px;
+    margin-right: 5%;
+}
+
+.title {
+    position: relative;
+    padding: 50px;
+    text-align: 50px; /* Tambahkan text-align agar teks dan garis bawah berada di tengah */
+}
+
+.title h2 {
+   width: 10%; /* Sesuaikan lebar garis bawah sesuai keinginan */
+   border-bottom: 5px solid #333333; /* Garis bawah dengan warna yang sama dengan teks */
+}
+
+.aboutus {
+    display: flex;
+    
+    margin-left: 15%;
+    left: 15%;
+}
+
+.aboutus-image {
+    position: flex;
+    margin-right: 3%;
+}
+
+.aboutus .text {
+    position: flex;
+    bottom: 50.5%;
+    left: 40%;
+}
+
+
+.aboutus-image {
+    width: 25%;
+}
+
+#contact {
+    text-align: center;
+    margin-top: 20px; /* Sesuaikan margin atas sesuai kebutuhan */
+}
+
+#contact p {
+    font-size: 18px; /* Sesuaikan ukuran font sesuai kebutuhan */
+    font-weight: bold;
+    color: #000000; /* Warna teks */
+}
+
+footer {
+    background-color: #FF5555; /* Warna merah untuk latar belakang */
+    color: #000000; /* Warna teks */
+    text-align: center;
+    padding: 10px;
+}
